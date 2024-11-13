@@ -1,5 +1,5 @@
 {
-  "version": 2, //format version of versel to write this config file
+  "version": 2,
   "builds": [
     {
       "src": "server.js",
@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/(.*)", //regex request endpoints
+      "src": "/(.*)",
       "dest": "server.js"
     }
   ]
