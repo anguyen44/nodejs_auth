@@ -6,7 +6,7 @@ CLOUDINARY npm package: in which, it allows to upload images or videos and give 
 
 //bit-bucket == github == gitlab
 
-//we can deploy on "RENDER" or "VERSEL"
+//we can deploy on "RENDER" or "VERCEL"
 
 //upload first codes project to git
 
