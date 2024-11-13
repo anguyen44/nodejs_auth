@@ -1,0 +1,15 @@
+{
+  "version": 2, //format version of versel to write this config file
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@versel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)", //regex request endpoints
+      "dest": "server.js"
+    }
+  ]
+}
